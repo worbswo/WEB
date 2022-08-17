@@ -8,8 +8,8 @@
         <form method="get" name="first" action="#" accept-charset="utf-8">
             <fieldset id="login" style="width:150">
                 <legend>Login</legend>
-                아이디 : <input type="text" name="ID"> <br><br>
-                비밀번호 : <input type="password" name="pass"><br><br>
+                아이디 : <input type="text" name="ID" autofocus placeholder="아이디를 입력하시오" required> <br><br>
+                비밀번호 : <input type="password" name="pass" placeholder="비밀번호를 입력하시오" required><br><br>
             </fieldset>
             <br>
             <fieldset style="width: 180; height:180">
@@ -28,7 +28,31 @@
                 좋아하는 색상 : <input type="color" value="black">
                 <br><br>
                 출생일자 : <input type="date" value="2022-08-17">
+                <br><br>
+                아무거나 : <select >
+                        <optgroup label="first">
+                            <option value="1" selected> 1 </option>
+                            <option value="2"> 2 </option>
+                        </optgroup>
+                        <optgroup label="second">
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                        </optgroup>
+                    </label>
+                </select>
+                <br><br>
+                아무거나2 : <input type="text" list="dataId">
+                <datalist id="dataId">
+                    <option>apple</option>
+                    <option>banana</option>
+                </datalist>
             </fieldset>
+            <fieldset style="width: 180; height:180">
+                <legend>자기소개</legend>
+                <textarea cols="75">
+                </textarea>
+            </fieldset>
+            <input type="submit" value="submit">&nbsp;<input type="reset" value="reset">
         </form>
     </body>
 </html>

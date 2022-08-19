@@ -1,0 +1,27 @@
+p{
+    font-family: 맑은 고딕;
+}
+.other{
+    font-family: 굴림;
+}
+.fontSizeSmall{
+    font-size:xx-small
+}
+.fontSizelarge{
+    font-size:xx-large
+}
+.fontBold{
+    font-weight: bold;
+}
+.fontlight{
+    font-weight: 100;
+}
+.fontitalic{
+    font-style: italic;
+}
+.fontvariant{
+    font-variant: small-caps;
+}
+h1{
+    text-shadow: 2px 2px 5px rgb(255,0,0);
+}

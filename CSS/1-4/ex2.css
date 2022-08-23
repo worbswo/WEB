@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+    border: 1px solid #444444;
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+    caption-side: bottom;
+}
+td,th{
+
+    border: 1px solid blue;
+
+}   

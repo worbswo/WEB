@@ -1,0 +1,8 @@
+div{
+    height: 500px;
+    column-width: 100px;
+    column-rule : 2px dotted red;
+}
+.cobine{
+    column-span: all;
+}

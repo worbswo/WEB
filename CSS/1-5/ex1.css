@@ -1,0 +1,80 @@
+.test{
+    width :300px;
+    height: 300px;
+    background-color: blue;
+    background-clip: border-box;
+    transition-property: width, height;
+    transition-duration: 1s,1s;
+}
+.test:hover{
+    width:200px;
+    height:120px;
+}
+.linear{
+    width :70px;
+    height: 50px;
+    background-color: rgb(20, 20, 179);
+    background-clip: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    border-radius: 10px;
+}
+.ease{
+    width :70px;
+    height: 50px;
+    background-color: rgb(20, 20, 179);
+    background-clip: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    border-radius: 10px;
+
+}
+.ease-in{
+    width :70px;
+    height: 50px;
+    background-color: rgb(20, 20, 179);
+    background-clip: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    border-radius: 10px;
+
+}
+.ease-out{
+    width :70px;
+    height: 50px;
+    background-color: rgb(20, 20, 179);
+    background-clip: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    border-radius: 10px;
+
+}.ease-in-out{
+    width :70px;
+    height: 50px;
+    background-color: rgb(20, 20, 179);
+    background-clip: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border-radius: 10px;
+
+}
+.cubic{
+    width :70px;
+    height: 50px;
+    background-color: rgb(20, 20, 179);
+    background-clip: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+    border-radius: 10px;
+
+    transition-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+div:hover div{
+    width:300px;
+
+}

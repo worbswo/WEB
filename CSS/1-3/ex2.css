@@ -11,3 +11,9 @@ h2{
 #container{
     color:coral
 }
+div{
+    width:100px;
+    height:200px;
+    border: 1px;
+    background-color: red;
+}
